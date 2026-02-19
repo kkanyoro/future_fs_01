@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  /* Define custom colors*/
+  --color-space-black: #05070a;
+  --color-slate-dark: #0f172a;
+  --color-gray-accent: #C0C0C0;
+
+
+  /* Define Keyframes */
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+/* utility class */
+.animate-fade-in {
+  animation: fade-in 2s ease-out forwards;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  @apply bg-space-black text-slate-300 antialiased;
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-slate-900/50 backdrop-blur-md border border-slate-800 rounded-xl overflow-hidden hover:border-gray-accent/50 transition-all duration-300;
+  }
+
+  .btn-primary {
+    @apply bg-gray-accent text-space-black px-6 py-2 rounded-lg font-bold hover:bg-gray-400 transition-colors;
+  }
+
+  .nav-link {
+    @apply hover:text-gray-accent transition-colors duration-200 cursor-pointer;
+  }
+
+  /*Chrome, Safari and Opera */
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+}
