@@ -32,13 +32,13 @@ const Navbar = () => {
                     <div className="h-full w-64 bg-slate-900/95 backdrop-blur-2xl shadow-2xl border-l border-white/5">
                         <ul className="flex flex-col items-center space-y-10 pt-32">
                             <li>
-                                <a href="#home" onClick={toggleMenu} className="text-white text-xl font-medium tracking-widest hover:text-cyan-accent transition-colors">HOME</a>
+                                <a href="#home" onClick={toggleMenu} className="text-white text-xl font-medium tracking-widest hover:text-gray-accent transition-colors">HOME</a>
                             </li>
                             <li>
-                                <a href="#projects" onClick={toggleMenu} className="text-white text-xl font-medium tracking-widest hover:text-cyan-accent transition-colors">PROJECTS</a>
+                                <a href="#projects" onClick={toggleMenu} className="text-white text-xl font-medium tracking-widest hover:text-gray-accent transition-colors">PROJECTS</a>
                             </li>
                             <li>
-                                <a href="#contact" onClick={toggleMenu} className="text-white text-xl font-medium tracking-widest hover:text-cyan-accent transition-colors">CONTACT</a>
+                                <a href="#contact" onClick={toggleMenu} className="text-white text-xl font-medium tracking-widest hover:text-gray-accent transition-colors">CONTACT</a>
                             </li>
                             <li className="pt-10">
                                 <button className="bg-white/10 border border-white/20 px-8 py-3 rounded-full text-sm text-white hover:bg-white hover:text-space-black transition-all duration-300">

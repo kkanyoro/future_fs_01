@@ -1,16 +1,59 @@
-# React + Vite
+# Kevin Kanyoro | Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live Demo:** [Insert Live Link Here]
 
-Currently, two official plugins are available:
+A high-performance, single-page developer portfolio built to showcase projects across Full-Stack Web Development, Blockchain Security, and Computer Graphics. Designed with a cinematic, glassmorphism UI and fluid intersection-observer animations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+* Custom UI/UX: Dark-mode native design with space-black and custom accent colors.
+* Horizontal Project Carousel: Custom CSS snap-scrolling for full-width project cards, focusing the user's attention on one project at a time.
+* Dynamic Viewport Animations: Sections fade and scale in/out based on scroll position using native Intersection Observer APIs.
+* Fully Functional Contact Form: Integrated with Web3Forms for direct email routing without the need for a backend server.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+* Frontend: React (Vite)
+* Styling: Tailwind CSS v4
+* Animations: Pure CSS Keyframes & React useEffect Observers
+* API: Web3Forms
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Featured Projects
+
+This portfolio highlights a diverse range of technical projects, spanning from high-level web frameworks to low-level rendering and formal verification.
+
+* Computer Graphics Engine (Graphics): Exploration of 3D rendering, shading models, and geometric transformations built with C++, C, and OpenGL.
+* MyToken (Blockchain): Development of decentralized assets and smart contracts on the Ethereum blockchain using Solidity.
+* Z3 Knowledge Base (AI & Logic): A specialized system exploring formal verification and logical reasoning using the Z3 Theorem Prover and Python.
+* Fuzzy Logic System & Diagnosis Expert (AI & Logic): Python-based implementations of intelligent decision-making logic and automated diagnostic tools simulating expert logical reasoning.
+* Evently & Threads (Web): Full-stack web applications built with Django and JavaScript, focused on comprehensive event management and social connectivity.
+* Auction Platform & Mail Client (Web): Dynamic e-commerce bidding systems and front-end heavy, single-page applications utilizing API integration.
+* KRM Management System (Web): A robust, database-driven system management application built with PHP and MySQL.
+
+## Local Setup Instructions
+
+To run this project locally, ensure you have Node.js installed on your machine.
+
+1. Clone the repository:
+   git clone https://github.com/kkanyoro/portfolio.git
+
+2. Navigate into the project directory:
+   cd portfolio
+
+3. Install the required dependencies:
+   npm install
+
+4. Start the development server:
+   npm run dev
+
+## Deployment Steps (Vercel)
+
+This project is optimized for seamless deployment via Vercel.
+
+1. Push your final code to your GitHub repository.
+2. Log in to Vercel (vercel.com) using your GitHub account.
+3. Click "Add New" and select "Project".
+4. Import your portfolio repository from the list.
+5. Vercel will automatically detect the framework as "Vite". No build settings need to be changed.
+6. Click "Deploy". 
+7. Once deployed, copy your new Vercel domain URL and paste it into the "Live Demo" section at the top of this README.

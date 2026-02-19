@@ -49,7 +49,7 @@ const ProjectGrid = ({ projects }) => {
                                 // Some of my works
                             </h2>
                             <h2 className="text-6xl font-bold text-white mb-2">Featured Projects</h2>
-                            <div className="h-1 w-20 bg-cyan-accent"></div>
+                            <div className="h-1 w-20 bg-gray-accent"></div>
                         </div>
 
                         <div className="flex flex-wrap gap-3">
@@ -58,7 +58,7 @@ const ProjectGrid = ({ projects }) => {
                                     key={cat}
                                     onClick={() => setActiveFilter(cat)}
                                     className={`px-4 py-1.5 rounded-full text-xs font-bold tracking-widest uppercase transition-all duration-300 border ${activeFilter === cat
-                                        ? 'bg-cyan-accent text-space-black border-cyan-accent'
+                                        ? 'bg-gray-accent text-space-black border-gray-accent'
                                         : 'bg-white/5 text-slate-400 border-white/10 hover:border-white/20'
                                         }`}
                                 >

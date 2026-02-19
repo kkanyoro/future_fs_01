@@ -7,7 +7,7 @@ const Reveal = ({ children }) => {
     useEffect(() => {
         const observer = new IntersectionObserver(
             ([entry]) => {
-                // riggers every time the element crosses the threshold
+                // Triggers every time the element crosses the threshold
                 setIsVisible(entry.isIntersecting);
             },
             {

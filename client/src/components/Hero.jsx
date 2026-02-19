@@ -57,7 +57,7 @@ const Hero = () => {
 
                     <div className="h-20"> {/* Fixed height to prevent layout shift during typing */}
                         <p className="text-2xl md:text-4xl text-slate-400 font-light">
-                            I'm a <span className="text-cyan-accent font-medium border-r-4 border-cyan-accent pr-1 animate-pulse">
+                            I'm a <span className="text-gray-accent font-medium border-r-4 border-gray-accent pr-1 animate-pulse">
                                 {text}
                             </span>
                         </p>
@@ -65,7 +65,7 @@ const Hero = () => {
 
                     <div className="mt-12 flex gap-6">
                         <a href="#projects" className="btn-primary">View Projects</a>
-                        <a href="#contact" className="text-white hover:text-cyan-accent transition-colors flex items-center gap-2">
+                        <a href="#contact" className="text-white hover:text-gray-accent transition-colors flex items-center gap-2">
                             Contact Me <span>→</span>
                         </a>
                     </div>
