@@ -28,7 +28,3 @@ This portfolio highlights a diverse range of technical projects, spanning from h
 * **Evently & Threads (Web):** Full-stack web applications built with Django and JavaScript, focused on comprehensive event management and social connectivity.
 * **Auction Platform & Mail Client (Web):** Dynamic e-commerce bidding systems and front-end heavy, single-page applications utilizing API integration.
 * **KRM Management System (Web):** A robust, database-driven system management application built with PHP and MySQL.
-
-## About Me
-
-I am a developer currently studying at Dedan Kimathi University of Technology. My technical focus lies in bridging the gap between complex backend logic—such as smart contracts and formal verification—and high-performance interactive graphics.
