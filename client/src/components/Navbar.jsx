@@ -14,7 +14,7 @@ const Navbar = () => {
 
                 {/* LOGO */}
                 <div className="text-white font-bold text-2xl tracking-tighter cursor-pointer">
-                    <a href="#home">Kanyoro<span className="text-slate-500">.DEV</span></a>
+                    <a href="#home">KANYORO<span className="text-slate-500">.DEV</span></a>
                 </div>
 
                 {/* SLIDING WRAPPER */}

@@ -65,7 +65,7 @@ const projects = [
     },
     {
         id: 9,
-        title: "Computer Graphics Engine",
+        title: "Computer Graphics Projects",
         description: "Exploration of 3D rendering, shading models, and geometric transformations.",
         techStack: ["C++", "OpenGL", "C"],
         category: "Graphics",

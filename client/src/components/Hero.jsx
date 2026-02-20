@@ -44,7 +44,7 @@ const Hero = () => {
     };
 
     return (
-        <section id="home" className="h-screen flex items-center justify-center snap-start px-6">
+        <section id="home" className="min-h-screen flex items-center justify-center px-6">
             <Reveal>
                 <div className="text-left max-w-4xl">
                     <h2 className="text-slate-500 font-mono tracking-widest mb-4 uppercase text-sm">

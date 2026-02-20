@@ -1,6 +1,6 @@
-# Kevin Kanyoro | Developer Portfolio
+# Portfolio Website
 
-**Live Demo:** [Insert Live Link Here]
+**Live Demo:** [https://kanyoro.vercel.app/]
 
 A high-performance, single-page developer portfolio built to showcase projects across Full-Stack Web Development, Blockchain Security, and Computer Graphics. Designed with a cinematic, glassmorphism UI and fluid intersection-observer animations.
 
@@ -22,7 +22,7 @@ A high-performance, single-page developer portfolio built to showcase projects a
 
 This portfolio highlights a diverse range of technical projects, spanning from high-level web frameworks to low-level rendering and formal verification.
 
-* Computer Graphics Engine (Graphics): Exploration of 3D rendering, shading models, and geometric transformations built with C++, C, and OpenGL.
+* Computer Graphics Projects: Exploration of 3D rendering, shading models, and geometric transformations built with C++, C, and OpenGL.
 * MyToken (Blockchain): Development of decentralized assets and smart contracts on the Ethereum blockchain using Solidity.
 * Z3 Knowledge Base (AI & Logic): A specialized system exploring formal verification and logical reasoning using the Z3 Theorem Prover and Python.
 * Fuzzy Logic System & Diagnosis Expert (AI & Logic): Python-based implementations of intelligent decision-making logic and automated diagnostic tools simulating expert logical reasoning.
@@ -35,10 +35,10 @@ This portfolio highlights a diverse range of technical projects, spanning from h
 To run this project locally, ensure you have Node.js installed on your machine.
 
 1. Clone the repository:
-   git clone https://github.com/kkanyoro/portfolio.git
+   git clone https://github.com/kkanyoro/future_fs_01.git
 
 2. Navigate into the project directory:
-   cd portfolio
+   cd future_fs_01
 
 3. Install the required dependencies:
    npm install

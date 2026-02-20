@@ -24,7 +24,7 @@ const HorizontalScrollCard = ({ project }) => {
         <div
             ref={cardRef}
             // Handles the fade and shrink as card leaves center
-            className={`snap-center shrink-0 w-[85vw] md:w-[600px] h-[450px] transition-all duration-700 ease-out ${isFocused ? 'opacity-100 scale-100' : 'opacity-30 scale-70'
+            className={`shrink-0 w-[85vw] md:w-[500px] h-[350px] transition-all duration-700 ease-out ${isFocused ? 'opacity-100 scale-100' : 'opacity-30 scale-70'
                 }`}
         >
             <ProjectCard project={project} />
@@ -40,7 +40,7 @@ const ProjectGrid = ({ projects }) => {
     const filteredProjects = projects.filter(p => p.category === activeFilter);
 
     return (
-        <section id="projects" className="py-24 max-w-[100vw] overflow-hidden snap-start">
+        <section id="projects" className="py-16 max-w-[100vw] overflow-hidden">
             <Reveal>
                 <div className="px-6 max-w-7xl mx-auto mb-12">
                     <div className="flex flex-col md:flex-row md:items-end justify-between gap-8">
@@ -72,7 +72,7 @@ const ProjectGrid = ({ projects }) => {
                 {/* key prop trick for smooth category transitions */}
                 <div
                     key={activeFilter}
-                    className="animate-fade-in flex overflow-x-auto snap-x snap-mandatory gap-8 px-6 md:px-[calc(50vw-300px)] pb-12 hide-scrollbar"
+                    className="animate-fade-in flex overflow-x-auto gap-8 px-6 md:px-[calc(50vw-300px)] pb-12 hide-scrollbar"
                 >
                     {filteredProjects.map((project) => (
                         <HorizontalScrollCard key={project.id} project={project} />
