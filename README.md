@@ -1,7 +1,6 @@
 # Portfolio Website
 
-// Add link with text "Live Demo" at the top of the README, pointing to the deployed Vercel URL.
-**Live Demo:** [https://kanyoro.vercel.app/](Kanyoro's Portfolio)
+**Live Demo:** [Kanyoro's Portfolio](https://kanyoro.vercel.app/)
 
 A high-performance, single-page developer portfolio built to showcase projects across Full-Stack Web Development, Blockchain Security, and Computer Graphics. Designed with a cinematic, glassmorphism UI and fluid intersection-observer animations.
 
